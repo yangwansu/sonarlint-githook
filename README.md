@@ -23,8 +23,8 @@ https://github.com/janosgyerik/sonarlint-git-hooks
     {yourprojecthome}$ ./sonarlint/install.sh
        
     
-    info: installing hook at: /Users/coupang/workspace/seller/.git/hooks/pre-push
-    info: installing hook at: /Users/coupang/workspace/seller/.git/hooks/pre-commit
+    info: installing hook at: ${yourprojecthome}/.git/hooks/pre-push
+    info: installing hook at: ${yourprojecthome}/.git/hooks/pre-commit
     info:  Sonarlint를 위한 모든 git hook 이 활성화되었습니다.
 
  
@@ -45,12 +45,12 @@ https://github.com/janosgyerik/sonarlint-git-hooks
 
 부득이하게 sonarlint 를 꺼놓고자 한다면 uninstall 하라.
 
-    workspace/seller$ ./sonarlint/uninstall.sh
+    yourprojecthome$ ./sonarlint/uninstall.sh
     
 
 ## Setting Quality Profile 
     
-현재 본 프로젝트에서는 coupang의 sonar server 내 Quality Profiles 을 사용한다.
+Sonar server 내 Quality Profiles 을 사용한다.
 
 서버를 설정하고 사용하고자 하는 Profile 을 선택해야한다.
 

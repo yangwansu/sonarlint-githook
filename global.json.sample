@@ -3,8 +3,8 @@
 {
   servers: [
     {
-      "id": "coupangaa",
-      "url": "http://sonar.coupang.net",
+      "id": "아이디",
+      "url": "여기에 소나린트 주소",
       "login":"여기에LDAP아이디",
       "password":"여기에LDAPPASSWORD"
     }
