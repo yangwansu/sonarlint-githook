@@ -1,0 +1,12 @@
+// {home}/.sonarlint/conf/global.json 에 복사 후 변경하세요
+
+{
+  servers: [
+    {
+      "id": "coupangaa",
+      "url": "http://sonar.coupang.net",
+      "login":"여기에LDAP아이디",
+      "password":"여기에LDAPPASSWORD"
+    }
+  ]
+}
